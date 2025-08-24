@@ -14,3 +14,13 @@ def get_familia():
 def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
+
+@app.get("/superheroesMarvel")
+def get_superheroes():
+    rows = ["Spiderman", "Ironman", "Thor", "Blackwido", "Solder America"]
+    return rows
+
+@app.get("/cursos")
+def get_cursos():
+    rows = ["Docker", "Bash", "Linux", "Ingles", "Javascripts"]
+    return rows
