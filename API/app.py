@@ -24,3 +24,8 @@ def get_superheroes():
 def get_cursos():
     rows = ["Docker", "Bash", "Linux", "Ingles", "Javascripts"]
     return rows
+
+@app.get("/nombres")
+def get_nombres():
+    rows = ["Angel", "lili", "Ingrid", "Dolores", "Jose"]
+    return rows
